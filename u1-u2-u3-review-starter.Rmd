@@ -26,7 +26,7 @@ solubility_hardness <- read_csv("data/solubility_hardness.csv")
 glimpse(sites)
 #There are 23 rows and 2 variables (columns) in the data.
 #Each row stats the location adn type of mineral at that specific location. 
-names(sites)
+names(sites) #completed the names() command
 ```
 
 
