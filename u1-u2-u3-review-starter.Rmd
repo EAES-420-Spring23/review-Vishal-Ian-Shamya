@@ -70,6 +70,18 @@ sand_mineral_properties %>%
   slice_tail(n = 10)
 ```
 
+```{r 1st and last column}
+sand_mineral_properties %>% 
+  select(1,5) %>% 
+  slice_tail(n=5)
+```
+```{r remove na}
+sand_mineral_properties %>% 
+  na.omit(harness) %>% 
+  arrange(density) %>% 
+  slice_head(n=5)
+```
+
 ### Exercise 5
 
 Remove this text, and add your answer for Exercise 5 here.
