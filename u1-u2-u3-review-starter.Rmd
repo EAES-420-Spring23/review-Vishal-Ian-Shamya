@@ -54,11 +54,10 @@ sand_mineral_properties
 ```
 
 ### Exercise 4
-```{r sorting sand grains data}
+```{r sorting sand grains by location}
 sand_mineral_properties %>%
   count(location)
 ```
-
 
 ### Exercise 5
 
