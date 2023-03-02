@@ -23,8 +23,9 @@ solubility_hardness <- read_csv("data/solubility_hardness.csv")
 ### Exercise 1
 
 ```{r inspect-sand-minerals}
-glipse(sites)
-
+glimpse(sites)
+#There are 23 rows and 2 variables (columns) in the data.
+#Each row stats the location adn type of mineral at that specific location. 
 
 ```
 
