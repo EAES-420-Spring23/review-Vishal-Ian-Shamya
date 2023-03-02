@@ -54,11 +54,11 @@ sand_mineral_properties
 ```
 
 ### Exercise 4
+```{r sorting sand grains data}
+sand_mineral_properties %>%
+  count(location)
+```
 
-Remove this text, and add your answer for Exercise 4 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
 
 ### Exercise 5
 
