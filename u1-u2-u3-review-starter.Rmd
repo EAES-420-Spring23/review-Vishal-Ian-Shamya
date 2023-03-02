@@ -59,6 +59,17 @@ sand_mineral_properties %>%
   count(location)
 ```
 
+```{r last 10}
+sand_mineral_properties %>%  
+  slice_tail(n = 10)
+```
+
+```{r new order}
+sand_mineral_properties %>% 
+  arrange(desc(density)) %>%
+  slice_tail(n = 10)
+```
+
 ### Exercise 5
 
 Remove this text, and add your answer for Exercise 5 here.
