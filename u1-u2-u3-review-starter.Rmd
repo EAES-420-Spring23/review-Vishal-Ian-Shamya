@@ -46,7 +46,11 @@ names(solubility_hardness)
 ### Exercise 3
 
 ```{r stitch}
-sites_plus_densities <- sites %>% left_join(density)
+sites_mineral_densities <- sites %>% left_join(density)
+sites_mineral_densities
+#There are 23 rows in sites_mineral_densities.
+sand_mineral_properties <- sites_mineral_densities %>% left_join(solubility_hardness)
+sand_mineral_properties
 ```
 
 ### Exercise 4
