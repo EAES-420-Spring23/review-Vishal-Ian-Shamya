@@ -95,6 +95,16 @@ sand_mineral_properties %>%
   count(minerals)
 ```
 
+```{r density_smol}
+sand_mineral_properties <- sand_mineral_properties %>% 
+  mutate(density_1000 = density / 1000)
+```
+
+```{r middle of the road}
+sand_mineral_properties %>% 
+  summarize(mean(density))
+```
+
 ### Exercise 6
 
 Remove this text, and add your answer for Exercise 6 here.
