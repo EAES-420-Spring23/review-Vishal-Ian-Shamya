@@ -38,7 +38,9 @@ glimpse(solubility_hardness)
 #Density has 3 rows and 2 variables, each row stats the density and name of mineral.
 #Location_description has 10rows and 2 variables, each row stats the location identifier and the description of that location.
 #Solubility_hardness has 3 row and 3 variables, each row stats the harness, solubility of each mineral.
-
+names(density)
+names(location_descriptions)
+names(solubility_hardness)
 ```
 
 ### Exercise 3
