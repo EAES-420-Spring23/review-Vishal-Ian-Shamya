@@ -25,7 +25,7 @@ solubility_hardness <- read_csv("data/solubility_hardness.csv")
 ```{r inspect-sand-minerals}
 glimpse(sites)
 #There are 23 rows and 2 variables (columns) in the data.
-#Each row stats the location adn type of mineral at that specific location. 
+#Each row stats the location and type of mineral at that specific location. 
 names(sites) #completed the names() command
 ```
 
@@ -35,6 +35,10 @@ names(sites) #completed the names() command
 glimpse(density)
 glimpse(location_descriptions)
 glimpse(solubility_hardness)
+#Density has 3 rows and 2 variables, each row stats the density and name of mineral.
+#Location_description has 10rows and 2 variables, each row stats the location identifier and the description of that location.
+#Solubility_hardness has 3 row and 3 variables, each row stats the harness, solubility of each mineral.
+
 ```
 
 ### Exercise 3
